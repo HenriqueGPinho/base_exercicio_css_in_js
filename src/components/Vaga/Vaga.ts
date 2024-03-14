@@ -34,7 +34,6 @@ export const VagaLink = styled.a`
   }
 
   &:hover {
-    background-color: var(--cor-principal);
-    color: var(--cor-secundaria);
+    background-color: var(--cor-principal-hover);
   }
 `
