@@ -20,10 +20,6 @@ export const BotaoPesquisar = styled.button`
   color: var(--cor-secundaria);
   margin-left: 8px;
   cursor: pointer;
-
-  &:hover {
-    background-color: var(--cor-principal-hover);
-  }
 `
 
 export const Campo = styled.input`

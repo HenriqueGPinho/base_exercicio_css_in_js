@@ -7,6 +7,17 @@ const VagaStyle = styled.li`
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+
+  &:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
+
+  &:hover a {
+    border-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+  }
 `
 
 export default VagaStyle
@@ -31,9 +42,5 @@ export const VagaLink = styled.a`
 
   @media (max-width: 768px) {
     display: block;
-  }
-
-  &:hover {
-    background-color: var(--cor-principal-hover);
   }
 `
